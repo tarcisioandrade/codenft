@@ -1,5 +1,4 @@
 import Collection from "@/screens/Collection";
-import Faq from "@/screens/Faq";
 import Footer from "@/screens/Footer";
 import Header from "@/screens/Header";
 import Hero from "@/screens/Hero";
