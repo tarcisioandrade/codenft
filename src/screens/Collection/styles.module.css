@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table {
+  text-align: right;
+  margin-top: 3rem;
+}
+
+.table th {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #333;
+}
+
+.table thead tr th:nth-child(1),
+.table tbody tr td:nth-child(1) {
+  text-align: left;
+}
+.table tbody tr {
+  vertical-align: top;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.vol {
+  display: flex;
+  flex-direction: column;
+}
+
+.volNumber {
+  color: var(--yellow);
+}
+
+.headerBtnMobile {
+  display: none;
+}
+
+@media screen and (max-width: 426px) {
+  .table {
+    margin-top: 2rem;
+  }
+  .headerBtnDesktop {
+    display: none;
+  }
+  .headerBtnMobile {
+    display: block;
+    margin-top: 2rem;
+  }
+
+  .table thead tr th:nth-last-child(-n + 2),
+  .table tbody tr td:nth-last-child(-n + 2) {
+    display: none;
+  }
+}

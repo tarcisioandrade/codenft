@@ -1,0 +1,151 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 90px;
+}
+
+.content {
+  max-width: 600px;
+}
+
+.bold {
+  color: var(--yellow);
+  font-weight: 600;
+}
+
+.subtitle {
+  margin-top: 1rem;
+  max-width: 400px;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  background: linear-gradient(
+    138.84deg,
+    rgba(255, 255, 255, 0.132) -6.39%,
+    rgba(143, 143, 143, 0.063) 112.17%
+  );
+  backdrop-filter: blur(50px);
+  border-radius: var(--radius);
+}
+
+.cardImage {
+  margin: 0 auto;
+  margin-top: -50px;
+}
+
+.cardFooter {
+  backdrop-filter: blur(70px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.cardTexts {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardTexts span:nth-child(1) {
+  font-weight: 600;
+}
+
+.cardTexts span:nth-child(2) {
+  opacity: 0.7;
+}
+
+.cardPrice {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.cardRating {
+  position: absolute;
+  top: 16px;
+  left: 32px;
+  width: 90px;
+  background: linear-gradient(
+    138.84deg,
+    rgba(255, 255, 255, 0.201) -6.39%,
+    rgba(255, 255, 255, 0.063) 112.17%
+  );
+  backdrop-filter: blur(5px);
+  border: 1px solid var(--yellow);
+  border-radius: var(--radius);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.dashboard {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(50px);
+  border: 3px solid var(--yellow);
+  border-radius: var(--radius);
+  margin-top: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 0;
+  font-family: "Jura", sans-serif;
+}
+
+.dashboardInfo {
+  padding: 0rem 4rem;
+  margin: 1rem 0;
+}
+
+.dashboardInfo:nth-child(-n + 3) {
+  border-right: 2px solid var(--yellow);
+  border-image: linear-gradient(
+      138.34deg,
+      rgba(224, 37, 206, 0.7) -11.36%,
+      rgba(74, 237, 82, 0.7) 51.55%,
+      rgba(189, 36, 230, 0.7) 113.16%
+    )
+    1;
+}
+.dashboardNumber {
+  font-size: 3.052rem;
+  font-weight: 600;
+  display: block;
+}
+
+.dashboardTitle {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+.dashboardSlider {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: inherit;
+  }
+  .card {
+    display: none;
+  }
+  .dashboard {
+    display: none;
+  }
+  .dashboardSlider {
+    display: block;
+    width: 100%;
+    margin-top: 6rem;
+    font-family: "Jura", sans-serif;
+  }
+
+  .dashboardInfo:nth-child(-n + 3) {
+    border: none;
+  }
+}

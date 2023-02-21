@@ -1,0 +1,44 @@
+.container {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.logo span {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.menu li a {
+  display: block;
+  padding: 0.3px;
+}
+
+.menu li a:hover {
+  color: var(--yellow);
+}
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .menu {
+    display: none;
+  }
+}
