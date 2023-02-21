@@ -2,12 +2,12 @@
 import React from "react";
 import styles from "./styles.module.css";
 import { motion } from "framer-motion";
-import NFT1 from "@public/assets/nft-1.png";
-import NFT2 from "@public/assets/nft-2.png";
-import NFT3 from "@public/assets/nft-3.png";
-import NFT1Mobile from "@public/assets/mobile/nft-1.png";
-import NFT2Mobile from "@public/assets/mobile/nft-2.png";
-import NFT3Mobile from "@public/assets/mobile/nft-3.png";
+import NFT1 from "@assets/nft-1.png";
+import NFT2 from "@assets/nft-2.png";
+import NFT3 from "@assets/nft-3.png";
+import NFT1Mobile from "@assets/mobile/nft-1.png";
+import NFT2Mobile from "@assets/mobile/nft-2.png";
+import NFT3Mobile from "@assets/mobile/nft-3.png";
 import Motion from "@components/Motion";
 import { item } from "@lib/Variants";
 

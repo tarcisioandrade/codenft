@@ -2,10 +2,10 @@ import React from "react";
 import styles from "./styles.module.css";
 import Motion from "@components/Motion";
 import { motion } from "framer-motion";
-import InstagramIcon from "@public/assets/fi_instagram.svg";
-import FacebookIcon from "@public/assets/fi_facebook.svg";
-import TwitterIcon from "@public/assets/fi_twitter.svg";
-import EmailIcon from "@public/assets/fi_mail.svg";
+import InstagramIcon from "@assets/fi_instagram.svg";
+import FacebookIcon from "@assets/fi_facebook.svg";
+import TwitterIcon from "@assets/fi_twitter.svg";
+import EmailIcon from "@assets/fi_mail.svg";
 import Image from "next/image";
 import { footer, item } from "@lib/Variants";
 
