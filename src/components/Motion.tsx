@@ -1,4 +1,4 @@
-import { main } from "@/lib/Variants";
+import { main } from "@lib/Variants";
 import { motion } from "framer-motion";
 
 interface MotionProps {

@@ -1,18 +1,18 @@
-import Motion from "@/components/Motion";
+import Motion from "@components/Motion";
 import React from "react";
 import styles from "./styles.module.css";
 import Image from "next/image";
-import Profile1 from "@/public/assets/profile1.png";
-import Profile2 from "@/public/assets/profile2.png";
-import Profile3 from "@/public/assets/profile3.png";
-import Profile4 from "@/public/assets/profile4.png";
+import Profile1 from "@public/assets/profile1.png";
+import Profile2 from "@public/assets/profile2.png";
+import Profile3 from "@public/assets/profile3.png";
+import Profile4 from "@public/assets/profile4.png";
 import clsx from "clsx";
 import { motion } from "framer-motion";
-import { item } from "@/lib/Variants";
+import { item } from "@lib/Variants";
 
 const Collection = () => {
   return (
-    <Motion className="container section" id="collection" >
+    <Motion className="container section" id="collection">
       <motion.header variants={item} className={styles.header}>
         <h4>Colecionadores</h4>
         <button className={clsx("button", styles.headerBtnDesktop)}>

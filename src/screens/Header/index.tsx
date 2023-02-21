@@ -2,7 +2,7 @@ import Logo from "./Logo";
 import { clsx } from "clsx";
 import styles from "./styles.module.css";
 import { motion } from "framer-motion";
-import { animationInLoad } from "@/lib/Animations";
+import { animationInLoad } from "@lib/Animations";
 import { Link } from "react-scroll";
 
 const Header = () => {

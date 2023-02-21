@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import styles from "./styles.module.css";
-import NFT from "@/public/assets/nft-hero.png";
+import NFT from "@public/assets/nft-hero.png";
 import Image from "next/image";
 import Logo from "../Header/Logo";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -11,8 +11,8 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import { Autoplay, Pagination, Navigation } from "swiper";
-import Motion from "@/components/Motion";
-import { item, main } from "@/lib/Variants";
+import Motion from "@components/Motion";
+import { item, main } from "@lib/Variants";
 
 const dashboardArray = [
   {
